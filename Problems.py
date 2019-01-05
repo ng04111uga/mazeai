@@ -10,7 +10,7 @@ class BadTransitionError(ProblemsError): pass
 class BadStateError(ProblemsError): pass
 
 class Maze:
-	""" Characteriztion of the Maze from as a state space. """
+	""" Characteriztion of the Maze as a state space. """
 	_states = range(25) #Set of possible states
 	_stepCost = 1 #Uniform step-cost.
 	_goalState = 17 #End of the maze.
